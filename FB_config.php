@@ -14,8 +14,8 @@ $redirectUrl   = 'http://assabuur.com/index.php?page=login'; //Callback URL
 //$permissions = array('email');  //Optional permissions
 
 $fb = new Facebook([
-  'app_id' => '205645447731415', // Replace {app-id} with your app id
-  'app_secret' => '897c36f511eb4c3d8ff87715e9ebf2f2',
+  'app_id' => '', // Replace {app-id} with your app id
+  'app_secret' => '',// Replace with your secret key
   'default_graph_version' => 'v9.0',
   ]);
 
