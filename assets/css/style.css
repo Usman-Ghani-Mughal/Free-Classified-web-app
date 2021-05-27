@@ -1,0 +1,137 @@
+.breadcrumb{ 
+	background:transparent;
+} 
+.breadcrumb > li + li:before {
+    padding: 0px;
+    content: " ";
+}
+.gray_body{
+	background-color: #f5f5f5;
+}
+
+#main1{
+	background-color: #FFF;
+}
+a.btn-secondary, button {
+    text-shadow: 0 1px 0 rgba(0,0,0,.3);
+    background-image: linear-gradient(to bottom,#00b5cc,#00b5cc);
+}
+.actBtn{
+	background-color:#f5f5f5;
+	color:#ff5621;
+}
+
+
+
+.category-selector .categoryGrid {
+	width: 25%;
+    border: 2px solid #F5F5F5;
+    margin-top: -2px;
+    margin-left: -2px;
+}
+.category-selector .categoryArea {
+
+	width: 135px;
+}
+.category-selector .categoryIcon {
+    text-align: center;
+    padding-top: 20px;
+}
+.category-selector .categoryIcon img{
+    width:50px;
+    height:50px;
+}
+
+.header-search-container {
+    background-color: #eee;
+}
+
+.header-search-container .location-input-container, 
+.header-search-container .category-input-container,
+.header-search-container .search-area-container {
+	background-color:#FFF;
+    border-radius: 8px;
+	margin:10px;
+}
+.header-search-container .location-input {
+    border: none;
+    background: none;
+}
+.searchInput{
+	padding: 20px;
+    padding-left: 35px;
+    border-radius: 8px;
+}
+.serchInputIcon{
+	color:#ccc;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 12px;
+    font-size: 20px;
+}
+.totalAds{
+	background-color:#09f;
+    position: absolute;
+   padding:5px;
+	
+}
+#header {
+    border-bottom: 0px solid #f5f5f5;
+}
+
+.hide{display:none;}
+.btn {
+display: inline-block;
+padding: 4px 12px;
+margin-bottom: 0;
+font-size: 14px;
+line-height: 20px;
+color: #333333;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+border: 1px solid #bbbbbb;
+border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+border-bottom-color: #a2a2a2;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+.btn {
+border-color: #c5c5c5;
+border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+}
+.btn-large {
+padding: 11px 19px;
+font-size: 17.5px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+.ChooseFile{
+	text-align:center !important;
+	background-color:#00b5cc !important; 
+	color:#FFF !important;
+	font-weight:bold !important; 
+	width:100% !important;
+}
+.form-control[readonly] {
+    background-color: #FFF;
+ }
+
+.modal-backdrop.in{
+	z-index: 2 !important;
+}
+button.btn, a.btn{
+	color:#FFF;
+}
+button.btn, .btn:hover{
+	color:#FFF !important;
+}
+
+.google_login_btn{
+    background-color: white;
+}
+
+
